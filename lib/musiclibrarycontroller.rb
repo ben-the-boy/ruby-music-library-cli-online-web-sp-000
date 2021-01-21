@@ -18,8 +18,6 @@ class MusicLibraryController
     input = gets.strip 
     if input != "exit"
       call
-      elsif input == "list songs"
-        list_songs 
     end 
   end
   
