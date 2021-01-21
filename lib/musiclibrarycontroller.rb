@@ -19,7 +19,12 @@ class MusicLibraryController
     if input != "exit"
       if input == "list songs"
         list_songs 
-      end 
+      elsif input == "list artists"
+        list_artists
+        elsif input == "list genres"
+          list_genres
+          elsif input == ""
+
     end 
   end
   
